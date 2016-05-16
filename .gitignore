@@ -42,3 +42,4 @@ pip-log.txt
 *.sqlite
 *~
 *.pyc
+__pycache__/
