@@ -1,2 +1,27 @@
 # Python 2.6 compatibility
 # argparse==1.2.1
+backports.shutil-get-terminal-size==1.0.0
+csvkit==0.9.1
+decorator==4.0.9
+Flask==0.10.1
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.1
+Flask-WTF==0.12
+ipython==4.2.0
+ipython-genutils==0.1.0
+itsdangerous==0.24
+jdcal==1.2
+Jinja2==2.8
+MarkupSafe==0.23
+openpyxl==2.2.0b1
+pexpect==4.0.1
+pickleshare==0.7.2
+ptyprocess==0.5.1
+python-dateutil==2.2
+simplegeneric==0.8.1
+six==1.10.0
+SQLAlchemy==1.0.12
+traitlets==4.2.1
+Werkzeug==0.11.9
+WTForms==2.1
+xlrd==0.9.4
