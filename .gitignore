@@ -23,7 +23,7 @@ sdist
 deb_dist
 develop-eggs
 .installed.cfg
-vcli
+vrest/
 
 ## Installer logs
 pip-log.txt

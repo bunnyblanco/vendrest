@@ -1,4 +1,4 @@
-from vendcli import app
+from vendrest import app
 
 
 if(__name__=='__main__'):
