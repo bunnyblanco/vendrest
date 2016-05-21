@@ -1,6 +1,6 @@
 from flask import render_template
 from .forms import LoginForm
-from vendcli import app
+from vendrest import app
 
 @app.errorhandler(404)
 def not_found_error(error):

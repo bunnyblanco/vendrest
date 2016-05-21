@@ -1,8 +1,8 @@
-from vendcli.models import (
+from vendrest.models import (
         Product, 
         ProductCost
         )
-from vendcli.models.meta import (
+from vendrest.models.meta import (
         Base,
         engine,
         Session,
@@ -15,7 +15,7 @@ p = Product(name='Snickers',pack_count=24)
 session.add(p)
 session.flush()
 
-pc = ProductCost(product_id=p.id, pack_cost=15.00,unit_cost=0.62)
+pc = ProductCost(product_id=p.id, pack_cost=15.00,unit_cost=15.00/p.pack_count)
 session.add(pc)
 session.commit()
 session.close()

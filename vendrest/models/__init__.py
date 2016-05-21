@@ -1,8 +1,8 @@
-from vendcli.models.transaction import (
+from vendrest.models.transaction import (
         Transaction,
         Resource
         )
-from vendcli.models.product import (
+from vendrest.models.product import (
         Product, 
         ProductCost
         )

@@ -4,4 +4,4 @@ app = Flask(__name__)
 app.config.from_pyfile('../config.py')
 
 
-from vendcli import views
+from vendrest import views

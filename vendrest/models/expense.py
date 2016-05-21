@@ -8,7 +8,7 @@ from sqlalchemy import (
         DateTime,
         ForeignKey,
         )
-from vendcli.models.meta import Base
+from vendrest.models.meta import Base
 
 class Invoice(Base):
     __tablename__='tbl_receipt'
