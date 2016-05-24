@@ -15,8 +15,8 @@ class Invoice(Base):
     id = Column(Integer, primary_key=True)
     supply_id = Column(Integer, ForeignKey('tbl_receipt.id'))
     name = Column(String(20), nullable=False) #The name/number
+    date = Column(DateTime, nullable=False)
     amount = Column(Float, default=0.00)
-    have = Column(Boolean)
 
 class Expense(Base)
     __tablename__ = 'tbl_expense'
